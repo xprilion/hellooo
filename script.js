@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function() {
     var count = sessionStorage.getItem("count") || 1;
 
     greeting.textContent += "o".repeat(count);
-    sessionStorage.setItem("count", count + 1);
+    sessionStorage.setItem("count", count - 2 + 3);
 });
